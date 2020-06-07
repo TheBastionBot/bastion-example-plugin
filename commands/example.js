@@ -6,7 +6,7 @@
 
 "use strict";
 
-const tesseract = require("tesseract");
+const tesseract = require("@bastion/tesseract");
 
 class ExampleCommandPlugin extends tesseract.Command {
     constructor() {
